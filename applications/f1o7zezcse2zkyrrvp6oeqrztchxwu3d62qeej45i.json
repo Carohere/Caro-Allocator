@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "ID": "f1o7zezcse2zkyrrvp6oeqrztchxwu3d62qeej45i",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "National Oceanic and Atmospheric Administration",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.noaa.gov/",
+    "Social Media": "https://twitter.com/NOAA",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "This dataset keeps on updating, so we plan to store this data into filecoin step by step.\r\nThe National Blend of Models (NBM) is a nationally consistent and skillful suite of calibrated forecast guidance based on a blend of both NWS and non-NWS numerical weather prediction model data and post-processed model guidance. The goal of the NBM is to create a highly accurate, skillful and consistent starting point for the gridded forecast.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "National Blend of Models (NBM) COG Format\r\nNew data notifications for NBM-COG Format, only Lambda and SQS protocols allowed\r\nNational Blend of Models (NBM) Grib2 Format\r\nNew data notifications for NBM-Grib2 Format, only Lambda and SQS protocols allowed",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will split and pack the data into zip by using our program. Then we will convert these files into car files by lotus and transfer it to sp via online & offline way.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://noaa-nbm-pds/\r\ns3://noaa-nbm-grib2-pds/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02130185|Guangdong\r\nf01843749|HongKong\r\nf02029743|Singapore\r\nf0420161|Canada\r\nf02363999|Singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1084TiB",
+    "Replicas": 9,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-05-08 06:30:57.455370619 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1o7zezcse2zkyrrvp6oeqrztchxwu3d62qeej45i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
