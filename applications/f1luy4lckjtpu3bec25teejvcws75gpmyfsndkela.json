@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1luy4lckjtpu3bec25teejvcws75gpmyfsndkela",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "National Library of Medicine",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nlm.nih.gov/portals/healthcare.html",
+    "Social Media": "https://www.facebook.com/nationallibraryofmedicine",
+    "Social Media Type": "Facebook",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "I'm Corona. I am a scholar and data preparer. I want to store these public search data in Filecoin. This helps me with my research. The processing of SARS-CoV-2 Sequence Read Archive (SRA) files has been optimized to identify genetic variations in viral samples. This information is then presented in the Variant Call Format (VCF). Each VCF file corresponds to the SRA parent-run's accession ID. Additionally, the data is available in the parquet format, making it easier to search and filter using the Amazon Athena Service.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This repository within the ACTIV TRACE initiative houses a comprehensive collection of datasets related to SARS-CoV-2.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Use our own tool and Lotus to create car files.------make the covid-19 data into car files. sps help store it into filecoin.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sra-pub-sars-cov2/\r\naws s3 ls --no-sign-request s3://sra-pub-sars-cov2-metadata-us-east-1/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01844999 Ashburn\r\nf02037968 GD\r\nf02252118 HK\r\nf02029743 SG\r\nf01843749 HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1.3PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-06-12 03:09:30.129655618 UTC",
+    "Validated By": "Carohere",
+    "Active": true,
+    "Updated At": "2024-06-12 03:10:08.768390823 UTC",
+    "Active Request ID": "16e5c9b0-5b40-46de-9c9f-97af9cc6ab05",
+    "On Chain Address": "f1luy4lckjtpu3bec25teejvcws75gpmyfsndkela",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "16e5c9b0-5b40-46de-9c9f-97af9cc6ab05",
+      "Request Type": "First",
+      "Created At": "2024-06-12 03:09:30.129662637 UTC",
+      "Updated At": "2024-06-12 03:09:30.129664351 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "Carohere",
+          "Signing Address": "f1w4uyrtnvie2bf2ya4i6xne7fn6ifmkm5tdamali",
+          "Created At": "2024-06-12 03:10:06.493000000 UTC",
+          "Message CID": "bafy2bzaceb2olmyr6vxkrvv47vmatwgcc7k2tsghapko7eri2rps7wuj7xweu"
+        }
+      ]
+    }
+  ]
+}
