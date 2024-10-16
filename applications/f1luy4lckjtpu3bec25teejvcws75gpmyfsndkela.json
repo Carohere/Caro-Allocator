@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-12 04:24:46.759068028 UTC",
+    "Validated At": "2024-10-16 12:01:08.621072153 UTC",
     "Validated By": "Carohere",
     "Active": true,
-    "Updated At": "2024-10-12 04:27:32.293485517 UTC",
-    "Active Request ID": "d557d6f3-dabb-4472-9a8f-1702873a5a0a",
+    "Updated At": "2024-10-16 12:03:02.559483579 UTC",
+    "Active Request ID": "1a9bead5-1f80-420d-9f1f-3557dc16edb5",
     "On Chain Address": "f1luy4lckjtpu3bec25teejvcws75gpmyfsndkela",
     "Multisig Address": "false",
     "edited": false
@@ -107,6 +107,22 @@
           "Signing Address": "f1w4uyrtnvie2bf2ya4i6xne7fn6ifmkm5tdamali",
           "Created At": "2024-10-12 04:27:28.805000000 UTC",
           "Message CID": "bafy2bzacecykz2vjmh7fc7hcqj3klrjjcpv4nmeu7gwmkuhrp6qapdw52pgcm"
+        }
+      ]
+    },
+    {
+      "ID": "1a9bead5-1f80-420d-9f1f-3557dc16edb5",
+      "Request Type": "Refill",
+      "Created At": "2024-10-16 12:01:08.621081223 UTC",
+      "Updated At": "2024-10-16 12:01:08.621081943 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "Carohere",
+          "Signing Address": "f1w4uyrtnvie2bf2ya4i6xne7fn6ifmkm5tdamali",
+          "Created At": "2024-10-16 12:02:59.624000000 UTC",
+          "Message CID": "bafy2bzaceaxjrjzz5erqt3wipmrvn6kby72dqegdzt7tk7e5d4dtiu3qejgwe"
         }
       ]
     }
