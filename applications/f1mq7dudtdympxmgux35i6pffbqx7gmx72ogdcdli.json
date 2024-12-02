@@ -35,11 +35,11 @@
     "Weekly Allocation": "600TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-12-02 14:57:40.799429254 UTC",
+    "State": "Granted",
+    "Validated At": "2024-12-02 14:59:09.438047457 UTC",
     "Validated By": "Carohere",
     "Active": true,
-    "Updated At": "2024-12-02 14:57:40.799434381 UTC",
+    "Updated At": "2024-12-02 14:59:09.438043886 UTC",
     "Active Request ID": "8f59f774-4944-4607-b7d1-108556c5999a",
     "On Chain Address": "f1mq7dudtdympxmgux35i6pffbqx7gmx72ogdcdli",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-12-02 14:57:40.799436184 UTC",
       "Updated At": "2024-12-02 14:57:40.799437346 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "650TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Carohere",
+          "Signing Address": "f1w4uyrtnvie2bf2ya4i6xne7fn6ifmkm5tdamali",
+          "Created At": "2024-12-02 14:59:06.930000000 UTC",
+          "Message CID": "bafy2bzacebtdb57dwhhkpx4sx274edpod5oixozlb3ypalpnr3pctcl5wbfzk"
+        }
+      ]
     }
   ]
 }
