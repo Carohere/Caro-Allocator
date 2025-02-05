@@ -38,9 +38,9 @@
     "State": "Granted",
     "Validated At": "2024-12-30 15:24:05.063427050 UTC",
     "Validated By": "Carohere",
-    "Active": true,
-    "Updated At": "2024-12-30 15:24:05.063423950 UTC",
-    "Active Request ID": "bffb3964-1a7d-406c-8556-f0c5003f147e",
+    "Active": false,
+    "Updated At": "2025-02-05 18:00:17.670119994 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f1higevr5a34m4dqumr4flwd7wfstnby2t7qfawpi",
     "Multisig Address": "false",
     "edited": false
