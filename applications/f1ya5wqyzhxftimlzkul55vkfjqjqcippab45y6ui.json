@@ -35,7 +35,7 @@
     "Weekly Allocation": "300TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-03-04 02:11:38.872874937 UTC",
     "Validated By": "Carohere",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "20ac6a8e-8bb2-4404-be67-bedd76d28ecc",
     "On Chain Address": "f1ya5wqyzhxftimlzkul55vkfjqjqcippab45y6ui",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
