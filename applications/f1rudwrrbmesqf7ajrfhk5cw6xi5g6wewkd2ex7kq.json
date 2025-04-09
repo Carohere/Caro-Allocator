@@ -35,7 +35,7 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-04-07 00:43:06.458342085 UTC",
     "Validated By": "Carohere",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "0975e32a-f521-468c-ad4d-5a8b90991114",
     "On Chain Address": "f1rudwrrbmesqf7ajrfhk5cw6xi5g6wewkd2ex7kq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
