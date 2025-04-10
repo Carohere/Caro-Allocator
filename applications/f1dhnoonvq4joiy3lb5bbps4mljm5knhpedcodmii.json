@@ -24,7 +24,7 @@
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
     "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03408862, ID\nf01313, HK\nf03233333, JM\nf03300709, SC\nf03363420, LZ\nf03499693, HK\nf03321072, CD\nf03529375, CA\nf03510628, HK\nf02029742, SC",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yesf03321072"
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
@@ -43,7 +43,7 @@
     "Active Request ID": "28f27753-0098-461a-a880-5b5f603b04d8",
     "On Chain Address": "f1dhnoonvq4joiy3lb5bbps4mljm5knhpedcodmii",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
