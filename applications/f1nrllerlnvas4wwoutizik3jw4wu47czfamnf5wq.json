@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1nrllerlnvas4wwoutizik3jw4wu47czfamnf5wq",
   "Issue Number": "57",
+  "Client Contract Address": "f410f2nwabnzlrduqa3xvjhreumnx37ejpejjyq7etxy",
   "Client": {
     "Name": "gnomAD/NASA",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "128TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-19 14:55:23.178600426 UTC",
+    "Validated By": "Carohere",
     "Active": true,
-    "Updated At": "2025-08-01 09:42:25.304491337 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-19 14:55:23.178604815 UTC",
+    "Active Request ID": "6c32a8d5-b511-4920-a1a8-ed54c04f98e5",
     "On Chain Address": "f1nrllerlnvas4wwoutizik3jw4wu47czfamnf5wq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "6c32a8d5-b511-4920-a1a8-ed54c04f98e5",
+      "Request Type": "First",
+      "Created At": "2025-08-19 14:55:23.178607416 UTC",
+      "Updated At": "2025-08-19 14:55:23.178608444 UTC",
+      "Active": true,
+      "Allocation Amount": "112150186033152 B",
+      "Signers": []
+    }
+  ]
 }
