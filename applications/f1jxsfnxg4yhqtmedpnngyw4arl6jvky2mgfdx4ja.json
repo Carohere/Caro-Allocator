@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1jxsfnxg4yhqtmedpnngyw4arl6jvky2mgfdx4ja",
+  "Issue Number": "60",
+  "Client": {
+    "Name": "Institut Pasteur",
+    "Region": "France",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.pasteur.fr/en/institut-pasteur",
+    "Social Media": "Erin",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Founded in 1887 and based in France, the Institut Pasteur is an international research and education institute that is committed to advancing science, medicine and public health. The Institut Pasteur is a private, non-profit foundation with recognized charitable status entrusted with four core missions of public interest – research, education, the health of populations and people, and innovation development and technology transfer.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This repository is a re-analysis of the NCBI Sequence Read Archive (SRA), December 2023 freeze, to make it more accessible. The SRA is an open access database of biological sequences, containing raw data from high-throughput DNA and RNA sequencing platforms. It is the largest database of public DNA sequences worldwide, containing a wealth of genomic diversity across all living organisms.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We have learned from governance meeting that curio is recommend to prepare data. We choose this way to do. And we have four servers to finish this work.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://logan-pub/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03614397 qinghai\n2. f03614020 gansu\n3. f03499694 hongkong\n4. f03363420 luzhou\n5. f03322378 shanghai",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "20PiB",
+    "Single Size Dataset": "2.9PiB",
+    "Replicas": 7,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-25 04:51:55.246779965 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1jxsfnxg4yhqtmedpnngyw4arl6jvky2mgfdx4ja",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
