@@ -28,7 +28,7 @@
 
 ### 🗒️Allocation tranche schedule
 
-* First allocation max 5%
+* First allocation max 5%, but no more than 256TiB
 
 * Second allocation max 10%
 
