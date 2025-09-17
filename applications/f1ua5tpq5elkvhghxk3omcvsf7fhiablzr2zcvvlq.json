@@ -23,8 +23,8 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03614397 Xining\nf03614020 Gansu\nf03612600 Gansu\nf03526300 Sichuan",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "\nf03615571 Shanghai\nf03614397 Xining\nf03614020 Gansu",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yesf03615571"
   },
   "Datacap": {
     "Type": "ldn-v3",
