@@ -3,36 +3,36 @@
   "ID": "f1ua5tpq5elkvhghxk3omcvsf7fhiablzr2zcvvlq",
   "Issue Number": "64",
   "Client": {
-    "Name": "gnomAD/NASA",
+    "Name": "gnomAD/NASA/GEOS",
     "Region": "United States",
     "Industry": "Life Science / Healthcare",
-    "Website": "https://gnomad.broadinstitute.org/ https://registry.opendata.aws/collab/nasa/",
+    "Website": "https://gnomad.broadinstitute.org/ https://registry.opendata.aws/collab/nasa/ https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/doc/gcid-portal-overview.html",
     "Social Media": "Frieda",
     "Social Media Type": "Slack",
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "GnomAD is the result of a coalition of investigators willing to share aggregate human exome and genome sequencing data from a variety of large-scale sequencing projects, and make summary data available for the wider scientific community.\nNASA's goal in Earth science is to observe, understand, and model the Earth system to discover how it is changing, to better predict change, and to understand the consequences for life on Earth.",
+    "Brief history of your project and organization": "GnomAD is the result of a coalition of investigators willing to share aggregate human exome and genome sequencing data from a variety of large-scale sequencing projects, and make summary data available for the wider scientific community.\nNASA's goal in Earth science is to observe, understand, and model the Earth system to discover how it is changing, to better predict change, and to understand the consequences for life on Earth.\nThe [GEOS-Chem Input Data], [GCHP]. This includes NASA/GMAO MERRA-2 and GEOS-FP [meteorological products], [chemistry input data], [emissions input data], and other smaller datasets such as model [initial conditions]. We will continuously upload and maintain the data in an S3 Bucket for convenient access.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
-    "Describe the data being stored onto Filecoin": "The Genome Aggregation Database (gnomAD) is a resource developed by an international coalition of investigators that aggregates and harmonizes both exome and genome data from a wide range of large-scale human sequencing projects.\nThe Prediction Of Worldwide Energy Resources (POWER) Project, funded through the Applied Sciences Program at NASA Langley Research Center, gathers NASA Earth observation data and parameters related to the fields of surface solar irradiance and meteorology to serve the public in several free, easy-to-access and easy-to-use methods. POWER helps communities become resilient amid observed climate variability by improving data accessibility, aiding research in energy development, building energy efficiency, and supporting agriculture projects.",
+    "Describe the data being stored onto Filecoin": "The Genome Aggregation Database (gnomAD) is a resource developed by an international coalition of investigators that aggregates and harmonizes both exome and genome data from a wide range of large-scale human sequencing projects.\nThe Prediction Of Worldwide Energy Resources (POWER) Project, funded through the Applied Sciences Program at NASA Langley Research Center, gathers NASA Earth observation data and parameters related to the fields of surface solar irradiance and meteorology to serve the public in several free, easy-to-access and easy-to-use methods. POWER helps communities become resilient amid observed climate variability by improving data accessibility, aiding research in energy development, building energy efficiency, and supporting agriculture projects.\nTop-level directory for all GEOS-Chem data.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "We are a technical team with the ability to prepare data. We use lotus to prepare data.",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://gnomad-public-us-east-1/\naws s3 ls --no-sign-request s3://nasa-power/\naws s3 ls --no-sign-request s3://power-datastore/",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://gnomad-public-us-east-1/\naws s3 ls --no-sign-request s3://nasa-power/\naws s3 ls --no-sign-request s3://power-datastore/\naws s3 ls --no-sign-request s3://geos-chem/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Monthly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
     "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "\nf03615571 Shanghai\nf03614397 Xining\nf03614020 Gansu",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yesf03615571"
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "2PiB",
-    "Single Size Dataset": "182TiB",
-    "Replicas": 10,
-    "Weekly Allocation": "128TiB"
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "665.7TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "256TiB"
   },
   "Lifecycle": {
     "State": "Granted",
